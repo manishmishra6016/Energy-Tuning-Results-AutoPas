@@ -1,0 +1,118 @@
+# Running single-site MD simulation.
+
+container                        :  [LinkedCells, VerletClusterLists, VerletLists, VerletListsCells, PairwiseVerletLists]
+fastParticlesThrow               :  true
+verlet-rebuild-frequency         :  10
+verlet-skin-radius               :  0.5
+verlet-cluster-size              :  4
+selector-strategy                :  Fastest-Mean-Value
+tuning-strategies                :  []
+tuning-metric                    :  time
+tuning-interval                  :  10000
+tuning-samples                   :  10
+early-stopping-factor            :  inf
+use-LOESS-smoothening            :  false
+PairwiseInteraction:             
+  functor                        :  Lennard-Jones (12-6) AVX intrinsics
+  traversal                      :  [lc_c04]
+  data-layout                    :  [AoS]
+  newton3                        :  [enabled]
+cutoff                           :  3
+box-min                          :  [0, 0, 0]
+box-max                          :  [200, 200, 200]
+cell-size                        :  [0.5, 1]
+deltaT                           :  0.0001
+pause-simulation-during-tuning   :  false
+sorting-threshold                :  8
+iterations                       :  150000
+boundary-type                    :  [reflective, reflective, reflective]
+Sites:                           
+  0:
+    epsilon                      :  1
+    sigma                        :  1
+    nu                           :  0
+    mass                         :  1
+Objects:                         
+  Sphere:
+    0:  
+      center                     :  [100, 100, 100]
+      radius                     :  10
+      particle-spacing           :  1.22462
+      velocity                   :  [0, 0, 0]
+      particle-type-id           :  0
+thermostat:
+  initialTemperature             :  0.1
+  targetTemperature              :  100
+  deltaTemperature               :  0.1
+  thermostatInterval             :  100
+  addBrownianMotion              :  true
+use-tuning-logger                :  false
+output-suffix                    :  
+log-level                        :  info
+no-end-config                    :  true
+no-progress-bar                  :  true
+load-balancer                    :  InvertedPressure
+load-balancing-interval          :  100
+subdivide-dimension              :  [true, true, true]
+energy-sensor                    :  rapl
+
+
+Using 36 Threads
+MPI is disabled.
+Number of particles at initialization on rank 0: 5497
+Number of particles at initialization globally : 5497
+
+
+Total number of particles at the end of Simulation: 5497
+Owned: 5497
+Halo : 0
+Measurements:
+Total accumulated                  : 1987976793685 ns (1987.977s)
+  Initialization                   :      46000126 ns (   0.046s) =  0.002%
+  Simulate                         : 1987930792683 ns (1987.931s) = 99.998%
+    PositionUpdate                 :   10034196480 ns (  10.034s) =  0.505%
+    UpdateContainer                :   59248058045 ns (  59.248s) =  2.980%
+    Boundaries                     :  115813109081 ns ( 115.813s) =  5.826%
+      HaloParticleExchange         :  115762203231 ns ( 115.762s) =  6.867%
+      ReflectParticlesAtBoundaries : 1569992050266 ns (1569.992s) = 93.130%
+      MigratingParticleExchange    :      50905850 ns (   0.051s) =  0.003%
+    ForceUpdateTotal               :  212401754443 ns ( 212.402s) = 10.685%
+      Tuning                       :    5546894264 ns (   5.547s) =  2.612%
+      ForceUpdateTuning            :    5546894264 ns (   5.547s) =  2.612%
+      ForceUpdateNonTuning         :  206740716649 ns ( 206.741s) = 97.335%
+    VelocityUpdate                 :   18570076803 ns (  18.570s) =  0.934%
+    Thermostat                     :     419657827 ns (   0.420s) =  0.021%
+    LoadBalancing                  :    1166209663 ns (   1.166s) =  0.059%
+  One iteration                  :      13252871 ns (   0.013s) =  0.001%
+Total wall-clock time              : 1987976793685 ns (1987.977s) =100.000%
+
+Tuning iterations                  : 150 / 150000 = 0.1%
+MFUPs/sec                          : 3.88203
+########################################
+#            Job Accounting            #
+########################################
+Name                : dynamic-VL
+User                : mishram
+Account             : hsuper
+Partition           : small
+QOS                 : normal
+NNodes              : 1
+Nodes               : node0451
+Cores               : 144 (72 physical)
+GPUs                : 0
+State               : COMPLETED
+ExitCode            : 0:0
+Submit              : 2025-09-17T13:41:42
+Start               : 2025-09-17T13:50:55
+End                 : 2025-09-17T14:24:05
+Waited              : 00:09:13
+Reserved walltime   : 10:02:00
+Used walltime       : 00:33:10
+Used CPU time       : 10:03:52 (Efficiency: 25.29%)
+% User (Computation): 99.87%
+% System (I/O)      :  0.13%
+Mem reserved        : 245000M
+Max Mem used        : 847.01M (node0451)
+Max Disk Write      : 22.97M (node0451)
+Max Disk Read       : 8.71M (node0451)
+Energy (CPU+Mem)    : 0.21kWh (0.09kg CO2, 0.07€)
