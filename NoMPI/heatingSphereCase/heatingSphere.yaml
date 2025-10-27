@@ -9,6 +9,7 @@ traversal                            :  [lc_c04, lc_c04_combined_SoA, lc_c08, lc
 tuning-strategies                :  []
 tuning-interval                  :  10000
 tuning-samples                   :  10
+use-LOESS-smoothening                :  true
 tuning-metric   : energy
 functor                          :  Lennard-Jones AVX
 newton3                          :  [disabled, enabled]
