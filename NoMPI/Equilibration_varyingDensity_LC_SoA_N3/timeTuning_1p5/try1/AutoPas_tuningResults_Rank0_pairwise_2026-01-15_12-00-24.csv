@@ -1,0 +1,4 @@
+Date,Iteration,Interaction Type,Container,CellSizeFactor,Traversal,Load Estimator,Data Layout,Newton 3,tuning[ns],optimumPerformance[ns]
+2026-01-15 12:00:54,80,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92534602,71335677
+2026-01-15 12:57:06,10080,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92451750,97863525
+2026-01-15 13:53:46,20080,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92482538,96401426
