@@ -7,7 +7,7 @@
                                        # job configuration testing partition: dev
 #SBATCH --cpus-per-task=36             # number of cores per process
 #SBATCH --time=20:02:00                # maximum wall clock limit for job execution
-#SBATCH --output=output_10daa56e0_c04_%j.log # log file which will contain all output
+#SBATCH --output=output_10daa56e0_timetuning_%j.log # log file which will contain all output
 
 module load gcc/13.2.0
 #< commands to be executed >
