@@ -11,9 +11,8 @@ verlet-skin-radius               :  0.5
 verlet-rebuild-frequency         :  10
 deltaT                           :  0.00182367
 iterations                       :  100000
-tuning-metric                    :  time
+tuning-metric                    :  energy
 tuning-samples                   :  10
-tuning-interval                  :  100000
 boundary-type                    :  [periodic, periodic, periodic]
 energy-sensor                    :  rapl
 Sites:
