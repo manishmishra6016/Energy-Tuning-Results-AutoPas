@@ -1,0 +1,16 @@
+Date,Iteration,Interaction Type,Container,CellSizeFactor,Traversal,Load Estimator,Data Layout,Newton 3,tuning[ns],optimumPerformance[ns]
+2026-02-22 12:11:09,30,pairwise,VerletLists,1.000000,vl_list_iteration,none,AoS,disabled,33905432,787261962
+2026-02-22 12:19:14,10030,pairwise,VerletLists,1.000000,vl_list_iteration,none,AoS,disabled,33919404,779687499
+2026-02-22 12:27:19,20030,pairwise,VerletLists,1.000000,vl_list_iteration,none,AoS,disabled,34002635,731249999
+2026-02-22 12:35:25,30030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,enabled,42218748,437499999
+2026-02-22 12:43:12,40030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,disabled,42311880,318749999
+2026-02-22 12:51:00,50030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,enabled,42714745,356249999
+2026-02-22 12:58:47,60030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,enabled,42563091,356249999
+2026-02-22 13:06:34,70030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,enabled,42752553,362499999
+2026-02-22 13:14:21,80030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,disabled,42705378,324999999
+2026-02-22 13:22:09,90030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,disabled,43046484,349999999
+2026-02-22 13:29:57,100030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,enabled,42980050,312499999
+2026-02-22 13:37:44,110030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,disabled,42861099,287499999
+2026-02-22 13:45:32,120030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,disabled,42888418,337499999
+2026-02-22 13:53:19,130030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,enabled,43027046,375000000
+2026-02-22 14:01:07,140030,pairwise,LinkedCells,1.000000,lc_c04,none,AoS,disabled,42956781,349999999

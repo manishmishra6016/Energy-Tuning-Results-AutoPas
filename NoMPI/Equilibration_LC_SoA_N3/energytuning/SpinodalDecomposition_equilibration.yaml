@@ -40,3 +40,4 @@ thermostat:
   deltaTemperature               :  2
   thermostatInterval             :  10
   addBrownianMotion              :  true
+no-end-config : true

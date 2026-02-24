@@ -1,0 +1,21 @@
+Date,Iteration,Interaction Type,Container,CellSizeFactor,Traversal,Load Estimator,Data Layout,Newton 3,tuning[ns],optimumPerformance[ns]
+2026-02-20 12:07:29,20,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92165000,73133878
+2026-02-20 12:35:55,5020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92006095,99111890
+2026-02-20 13:04:06,10020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92207338,98649681
+2026-02-20 13:32:25,15020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92097480,98757627
+2026-02-20 14:00:45,20020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92138210,98411695
+2026-02-20 14:29:08,25020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92414147,98459210
+2026-02-20 14:57:32,30020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92244976,97588668
+2026-02-20 15:25:54,35020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92357620,97761167
+2026-02-20 15:54:16,40020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92315976,97514489
+2026-02-20 16:22:38,45020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92308069,97614482
+2026-02-20 16:51:00,50020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92294347,97542994
+2026-02-20 17:19:21,55020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92351261,97522490
+2026-02-20 17:47:42,60020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92403124,97319069
+2026-02-20 18:16:01,65020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92259290,97459597
+2026-02-20 18:44:21,70020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92362539,97142445
+2026-02-20 19:12:39,75020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92141104,97242562
+2026-02-20 19:40:57,80020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92088101,97047386
+2026-02-20 20:09:16,85020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92400007,97011428
+2026-02-20 20:37:34,90020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92264540,97154735
+2026-02-20 21:05:53,95020,pairwise,LinkedCells,1.000000,lc_c04,none,SoA,enabled,92337415,96998792
