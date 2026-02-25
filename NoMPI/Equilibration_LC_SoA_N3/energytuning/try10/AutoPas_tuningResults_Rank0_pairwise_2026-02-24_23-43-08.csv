@@ -1,0 +1,21 @@
+Date,Iteration,Interaction Type,Container,CellSizeFactor,Traversal,Load Estimator,Data Layout,Newton 3,tuning[ns],optimumPerformance[ns]
+2026-02-24 23:43:15,20,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,93083424,26585681152
+2026-02-25 00:11:01,5020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92410762,36612500000
+2026-02-25 00:39:05,10020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92744669,36800000000
+2026-02-25 01:07:19,15020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92804478,36325000000
+2026-02-25 01:35:28,20020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92913655,36075000000
+2026-02-25 02:03:37,25020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92550720,36050000000
+2026-02-25 02:31:46,30020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92661680,35825000000
+2026-02-25 02:59:56,35020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92716433,36025000000
+2026-02-25 03:28:04,40020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92583419,35600000000
+2026-02-25 03:56:14,45020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92696282,35550000000
+2026-02-25 04:24:25,50020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92954255,36100000000
+2026-02-25 04:52:36,55020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92874344,35600000000
+2026-02-25 05:20:50,60020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,93117778,36050000000
+2026-02-25 05:49:03,65020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92986144,35600000000
+2026-02-25 06:17:15,70020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,93010597,35550000000
+2026-02-25 06:45:26,75020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92843273,36100000000
+2026-02-25 07:13:38,80020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92894118,36100000000
+2026-02-25 07:41:49,85020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,92902731,36000000000
+2026-02-25 08:10:00,90020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,93012050,36000000000
+2026-02-25 08:38:11,95020,pairwise,LinkedCells,1.000000,lc_sliced_balanced,none,SoA,enabled,93115907,36100000000
